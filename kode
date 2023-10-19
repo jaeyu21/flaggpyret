@@ -1,0 +1,16 @@
+#jeg bruker nøkkelordene "shapes" mellom disse linjene, som f.eks. "rectangle" som tegner en rektangelform eller figur og innenfor parentesene er høydne og bredden til figuren, som denne verdien (x,y), og på den siste, bruker jeg stiltypen og farger på figuren.
+
+put-image(
+  rectangle(20, 200, "solid", "darkblue"), 
+  80, 50,     /* har jeg satt høyden til 20 og       bredden til 200, med stil solid mørkeblå farge, og deretter vinkelen xy til 10 og    80   */
+    put-image(
+    rectangle(800, 20, "solid", "darkblue"),
+      10, 80,    /* denne linjen har jeg satt høyden til 800 og bredden til 20, med solidstil og mørkeblå farge, på vinkelen 10 og 80*/
+    put-image(
+      rectangle(800, 40, "solid", "white"),
+      10, 80,   /* dette er igjen samme satt form som på linje 1 og 2, men skal bruk dette som en bakgrunnsform for bredden, med solid hvit farge og samme vinkelen, og gjorde den større slik at den vil være som en bakgrunn på det blå som symboliserer den norske flagget. */
+    put-image(
+  rectangle(40, 200, "solid", "white"),
+  80, 50,  /* nesten lik linje 3, mens brukes også som bakgrunn på flaggets breddelinje, med samme vinkel xy som på linje 1 */
+
+        empty-color-scene(300, 150, "red"))))) /* dette er hvor jeg begynte, tom eller fra bunnen av først, og malte den rød med en verdi på 300 på x eller høyde og 150 på bredden eller y )x,y) */
